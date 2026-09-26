@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ashish Tambe — Learn. Think. Grow. Finance, Health, Spirituality, Books and Ideas.">
+<title>Ashish Tambe — Learn. Think. Grow.</title>
+<style>
+:root{--bg:#f5f2ea;--ink:#171817;--muted:#686b66;--card:#fffdf8;--line:#ddd8ca;--accent:#145c43;--accent2:#d9eadf;--dark:#102e25;--gold:#b88a35}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,Arial,sans-serif;line-height:1.65}
+.container{max-width:1160px;margin:auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:20;background:#f5f2eae8;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.navin{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;letter-spacing:-.8px}.logo span{color:var(--accent)}
+.links{display:flex;gap:22px}.links a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:600}
+.hero{padding:105px 0 88px;background:radial-gradient(circle at 85% 20%,#dcece1 0,transparent 30%),var(--bg);border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:11px}
+h1{font-size:clamp(52px,8vw,94px);line-height:.93;letter-spacing:-6px;max-width:850px;margin:18px 0}
+.hero p{font-size:20px;color:var(--muted);max-width:710px}.hero-meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+.pill{border:1px solid var(--line);padding:7px 12px;border-radius:99px;background:#ffffff90;font-size:13px}
+.btn{display:inline-block;margin-top:24px;padding:13px 21px;background:var(--ink);color:white;text-decoration:none;border-radius:999px;font-weight:800}
+section{padding:82px 0}.sectionhead{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:30px}
+h2{font-size:40px;letter-spacing:-2px;margin:0}.sectionhead p{color:var(--muted);max-width:540px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:27px;min-height:200px;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 16px 35px #0000000c}.icon{font-size:29px}.card h3{margin:13px 0 7px;font-size:22px;letter-spacing:-.5px}.card p{margin:0;color:var(--muted)}
+.quick{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}.quick a{padding:16px;border:1px solid var(--line);border-radius:16px;background:#fffaf0;color:var(--ink);text-decoration:none;font-weight:750}
+.feature{display:grid;grid-template-columns:1.4fr .6fr;gap:18px}.feature .big{min-height:280px;background:var(--dark);color:white}.feature .big p{color:#cbd8d2}.feature .big .tag{color:#a9d4bf}.tag{font-size:11px;text-transform:uppercase;letter-spacing:1.4px;color:var(--accent);font-weight:900}
+.bookgrid{grid-template-columns:repeat(4,1fr)}.book{min-height:235px}.book small{color:var(--gold);font-weight:900;letter-spacing:1px}
+.guide{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.guide .card{min-height:0}.guide ul{margin:15px 0 0;padding-left:20px;color:var(--muted)}
+.note{background:#e6efe8;border:1px solid #c8dccf;padding:18px;border-radius:16px;color:#315344;font-size:14px;margin-top:18px}
+.article-list{display:grid;gap:12px}.article{display:flex;justify-content:space-between;gap:20px;align-items:center}.article div{max-width:800px}.article h3{margin:6px 0}.arrow{font-size:24px}
+.about{background:var(--dark);color:white}.about p{color:#d4e0da;max-width:760px;font-size:18px}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.quote{font-size:30px;line-height:1.25;letter-spacing:-1px}.disclaimer{font-size:12px;color:#9fb2aa}
+footer{padding:38px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px}.footerin{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:850px){.links{display:none}.grid,.bookgrid,.guide,.feature,.about-grid{grid-template-columns:1fr}.quick{grid-template-columns:1fr 1fr}.hero{padding:75px 0 65px}h1{letter-spacing:-4px}.sectionhead{display:block}.sectionhead p{margin-top:10px}.footerin{display:block}}
+@media(max-width:480px){.quick{grid-template-columns:1fr}.container{padding:0 18px}}
+</style>
+</head>
+<body>
+<nav><div class="container navin"><div class="logo">ASHISH<span>TAMBE</span></div>
+<div class="links"><a href="finance.html">Finance</a><a href="health.html">Health</a><a href="spirituality.html">Spirituality</a><a href="books.html">Books</a><a href="#ideas">Ideas</a></div></div></nav>
+
+<header class="hero"><div class="container">
+<div class="eyebrow">Personal Knowledge Hub</div>
+<h1>Learn.<br>Think.<br>Grow.</h1>
+<p>A personal knowledge space for practical ideas about <b>money, health, spirituality, books and life.</b> Learn something useful, question it, and make it part of your own thinking.</p>
+<div class="hero-meta"><span class="pill">Finance</span><span class="pill">Health</span><span class="pill">Spirituality</span><span class="pill">Books</span><span class="pill">Ideas</span></div>
+<a class="btn" href="#explore">Explore the ideas ↓</a>
+</div></header>
+
+<main id="explore">
+
+<section><div class="container">
+<div class="sectionhead"><h2>Start exploring</h2><p>Choose a subject. Read something useful. Take one idea and apply it.</p></div>
+<div class="grid">
+<a class="card" href="finance.html" style="color:inherit;text-decoration:none"><div class="icon">💰</div><h3>Finance →</h3><p>Personal finance, saving, insurance, debt, investing, stocks, mutual funds, retirement and wealth building.</p></a>
+<a class="card" href="health.html" style="color:inherit;text-decoration:none"><div class="icon">🥗</div><h3>Health →</h3><p>Nutrition, what to eat, what to limit, fitness, sleep, heart health, prevention and healthy habits.</p></a>
+<a class="card" href="spirituality.html" style="color:inherit;text-decoration:none"><div class="icon">🧘</div><h3>Spirituality →</h3><p>Buddha, mindfulness, meditation, Periyar, Osho, philosophy and independent thinking.</p></a>
+<a class="card" href="books.html" style="color:inherit;text-decoration:none"><div class="icon">📚</div><h3>Books →</h3><p>Simple summaries, key ideas and practical lessons from influential books.</p></a>
+</div></div></section>
+
+<section id="finance"><div class="container">
+<div class="sectionhead"><h2>Finance</h2><p>How to manage your income, save money, protect your family, reduce debt and build long-term wealth.</p></div>
+
+<div class="card" style="margin-bottom:18px;background:#e6efe8;border-color:#c8dccf">
+<div class="icon">💰</div><h3>Protect → Support → Grow</h3>
+<p>Money management is not about becoming rich quickly. Whether you earn ₹15,000 or ₹1,50,000 per month, the basic principles remain similar.</p>
+<p><strong>Earn → Budget → Save → Protect → Clear Debt → Invest → Review → Grow</strong></p>
+</div>
+
+<div class="grid">
+<div class="card"><div class="icon">🧾</div><h3>Personal Finance</h3><p>Income, expenses, budgeting, saving, insurance, debt, investing, retirement, taxes and financial goals.</p></div>
+<div class="card"><div class="icon">💵</div><h3>Spend Less Than You Earn</h3><p>The foundation of financial health is creating a surplus between income and expenses.</p></div>
+<div class="card"><div class="icon">📊</div><h3>Cash Flow</h3><p>Separate needs, wants and financial goals. Your exact allocation should reflect your real situation.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">📅</div><h3>Create a Monthly Budget</h3>
+<p>A budget tells your money where to go before you spend it. Don't blindly follow a fixed percentage such as 50-30-20; your income, family responsibilities, debt and goals matter.</p>
+<div class="quick">
+<div class="pill">Essential expenses</div><div class="pill">Debt repayment</div><div class="pill">Insurance</div><div class="pill">Emergency fund</div><div class="pill">Investments</div><div class="pill">Lifestyle</div>
+</div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">🚨</div><h3>Emergency Fund</h3>
+<p>Keep money aside for job loss, medical emergencies, major repairs, emergency travel or temporary loss of income.</p>
+<p>A common starting point is <strong>3–6 months of essential expenses</strong>. If essential expenses are ₹30,000/month, that means ₹90,000–₹1,80,000.</p>
+<p>Prioritize <strong>safety + liquidity</strong>. Suitable options may include savings accounts, sweep FDs and other low-volatility liquid options after understanding their terms.</p>
+<p><strong>Don't use your emergency fund for trading, crypto, options, shopping or speculative investments.</strong></p>
+</div>
+
+<div class="grid">
+<div class="card"><div class="icon">🏦</div><h3>Saving vs Investing</h3><p><strong>Saving</strong> focuses on protecting and accessing money. <strong>Investing</strong> puts money into assets with the expectation of returns over time.</p><p>Examples include savings accounts, FD/RD, mutual funds, stocks, bonds, ETFs, gold and NPS.</p></div>
+<div class="card"><div class="icon">📉</div><h3>Inflation</h3><p>Prices generally rise over time. Long-term savings need the potential to grow while accepting the risks of investments.</p></div>
+<div class="card"><div class="icon">🛡️</div><h3>Insurance</h3><p>Insurance is primarily about protection, not wealth creation. Understand coverage, exclusions, waiting periods, deductibles, costs and claim conditions.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">🏥</div><h3>Health Insurance</h3>
+<p>When comparing policies, don't look only at premium. Check sum insured, waiting periods, pre-existing disease conditions, room-rent limits, co-payment, deductibles, exclusions, network hospitals, claim process, restoration benefits and renewability.</p>
+</div>
+
+<div class="card" style="margin:18px 0">
+<div class="icon">👨‍👩‍👧</div><h3>Life Insurance</h3>
+<p>Life insurance becomes especially important when other people depend on your income. Term insurance is designed primarily for life protection for a specified period.</p>
+<p><strong>Insurance protects wealth. Investments build wealth.</strong></p>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">💳</div><h3>Debt & Credit</h3>
+<p>Debt isn't automatically bad. Ask: <strong>Why am I borrowing? How much does it cost? Can I comfortably repay it? Does it create value or mainly increase consumption?</strong></p>
+<div class="grid">
+<div><h3>High-interest debt</h3><p>Credit-card revolving balances, high-interest personal loans and certain consumer loans can be expensive. Check the actual interest rate, fees and repayment terms.</p></div>
+<div><h3>Credit cards</h3><p>Use a credit card as a payment tool, not as extra income. Paying the full bill can avoid the cost of revolving balances.</p></div>
+<div><h3>Credit score</h3><p>Pay EMIs and bills on time, avoid unnecessary credit applications and monitor your credit report for errors.</p></div>
+</div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">🏦</div><h3>FD & RD</h3>
+<p><strong>FD:</strong> A fixed deposit places money with a bank for a specified period under specified terms. It can be useful for short and medium-term goals, but interest is taxable under applicable rules and premature withdrawal can have conditions.</p>
+<p><strong>RD:</strong> A recurring deposit lets you deposit a fixed amount regularly for a specified period and can help with disciplined saving for known future needs.</p>
+<p>Eligible bank deposits are insured by DICGC up to <strong>₹5 lakh per depositor per bank</strong>, including principal and interest, subject to applicable rules.</p>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">📈</div><h3>Mutual Funds & SIP</h3>
+<p>A mutual fund pools money from investors and invests according to its objective. Categories include equity, debt, hybrid and index funds.</p>
+<p><strong>SIP = Systematic Investment Plan.</strong> SIP is a method of investing a fixed amount periodically into a mutual fund; it is not itself an investment product.</p>
+<p>Risk depends on the underlying fund. Look at the objective, portfolio, costs, risk, benchmark, consistency and your time horizon.</p>
+</div>
+
+<div class="grid">
+<div class="card"><div class="icon">🔎</div><h3>Direct vs Regular</h3><p>Direct plans generally have a lower expense ratio than corresponding regular plans because there is no distributor commission structure. The right choice depends on your need for distribution or advisory support and your understanding of costs.</p></div>
+<div class="card"><div class="icon">🧺</div><h3>How Many Funds?</h3><p>More funds don't automatically mean more diversification. Look for overlap, objective, risk, portfolio, costs and your actual financial goal rather than chasing last year's returns.</p></div>
+<div class="card"><div class="icon">📊</div><h3>ETFs</h3><p>ETFs trade on exchanges and can provide exposure to a basket of securities or an index. Understand tracking difference, expense ratio, liquidity, spreads and transaction costs.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">📈</div><h3>Stocks — Direct Equity</h3>
+<p>Buying a stock makes you a shareholder in a company. Returns can come from capital appreciation and dividends, but prices can fall significantly.</p>
+<p>Before buying an individual stock, understand the <strong>business, revenue, profit, cash flow, debt, competition, management and valuation.</strong></p>
+</div>
+
+<div class="card" style="margin:18px 0">
+<div class="icon">🪙</div><h3>Gold</h3>
+<p>Gold can be used as a diversification asset. Possible exposure includes physical gold and gold ETFs or other regulated structures.</p>
+<p><strong>Jewellery is not the same as an investment in gold.</strong> Jewellery can include making charges, wastage, taxes and resale considerations.</p>
+</div>
+
+<div class="grid">
+<div class="card"><div class="icon">🏖️</div><h3>Retirement & NPS</h3><p>Plan using current expenses, retirement age, inflation, expected income, investments and healthcare costs. NPS is a retirement-oriented system regulated by PFRDA.</p></div>
+<div class="card"><div class="icon">📜</div><h3>PPF</h3><p>PPF is a long-term government-backed savings scheme with specified tenure, contribution, withdrawal, interest-rate and tax rules. Understand the current rules before investing.</p></div>
+<div class="card"><div class="icon">⚖️</div><h3>Asset Allocation</h3><p>Decide how much belongs in equity, debt/FD, gold and cash based on age, income, risk tolerance, risk capacity, family responsibilities, debt, goals and horizon.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px;background:#fff8e8">
+<div class="icon">🎯</div><h3>Match Investments With Your Goal</h3>
+<p><strong>Money needed soon:</strong> avoid unnecessary market risk.</p>
+<p><strong>Medium-term goal:</strong> design the portfolio around the specific horizon and risk capacity.</p>
+<p><strong>Long-term goal:</strong> you may have more time to tolerate market fluctuations if you can handle the risk.</p>
+<p><strong>Choose the goal first, then choose the investment.</strong></p>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">💼</div><h3>How Much Should You Invest From Your Income?</h3>
+<p>There is no perfect percentage for everyone. Instead ask:</p>
+<div class="quick">
+<div class="pill">1. How much do I earn?</div><div class="pill">2. What are my essential expenses?</div><div class="pill">3. Do I have an emergency fund?</div><div class="pill">4. Am I insured?</div><div class="pill">5. Do I have expensive debt?</div><div class="pill">6. What are my goals?</div><div class="pill">7. When will I need the money?</div><div class="pill">8. How much risk can I handle?</div>
+</div>
+</div>
+
+<div class="grid">
+<div class="card"><div class="icon">🧮</div><h3>₹30,000 Salary Example</h3><p>Illustration: ₹18,000 essentials, ₹5,000 emergency fund, ₹3,000 debt repayment, ₹2,000 insurance/protection and ₹2,000 long-term investment. Once the emergency fund is built and expensive debt is controlled, more can potentially go toward investing.</p></div>
+<div class="card"><div class="icon">💼</div><h3>₹1,00,000 Salary Example</h3><p>One illustration: ₹40,000 needs, ₹10,000 lifestyle, ₹10,000 protection, ₹10,000 goals/reserves and ₹30,000 long-term investments. Actual allocation depends on debt, family needs and goals.</p></div>
+<div class="card"><div class="icon">📐</div><h3>Wealth-Building Formula</h3><p><strong>Income + Saving Rate + Time + Investment Return − Taxes − Costs − Bad Debt</strong>. You can influence how much you save, debt, time, costs, risk and income.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">⏳</div><h3>Compounding</h3>
+<p>Compounding means returns can themselves generate returns over time. For illustration, investing ₹10,000 per month for 20 years means ₹24 lakh of contributions. At a hypothetical 10% annual return, it could grow to roughly ₹76 lakh.</p>
+<p><strong>This is only an illustration. Actual market returns are uncertain.</strong></p>
+</div>
+
+<div class="grid">
+<div class="card"><div class="icon">🎯</div><h3>Don't Chase Returns</h3><p>Instead of asking which investment gives the highest return, ask which investment fits your goal, time horizon and risk tolerance.</p></div>
+<div class="card"><div class="icon">🧺</div><h3>Diversification</h3><p>Spread risk across companies, industries and asset classes. Diversification can reduce concentration risk but cannot eliminate investment risk.</p></div>
+<div class="card"><div class="icon">🔄</div><h3>Rebalancing</h3><p>Portfolio weights can change as markets move. Rebalancing brings the portfolio back toward your chosen allocation according to your plan.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">🎯</div><h3>Financial Goals</h3>
+<p><strong>Short-term:</strong> emergency fund, vacation, vehicle, electronics.</p>
+<p><strong>Medium-term:</strong> home down payment, education, marriage, business.</p>
+<p><strong>Long-term:</strong> retirement, children's education, financial independence and wealth transfer.</p>
+<p>Give every major goal a <strong>target amount + deadline + investment strategy.</strong></p>
+</div>
+
+<div class="card" style="margin:18px 0">
+<div class="icon">🧾</div><h3>Tax Planning</h3>
+<p>Understand applicable rules for salary, interest income, capital gains, dividends, mutual funds, stocks, property and retirement investments. Don't choose an investment only for tax benefits; first ask whether it suits the goal.</p>
+</div>
+
+<div class="card" style="margin:18px 0;background:#fff8e8">
+<div class="icon">🚨</div><h3>Financial Scams</h3>
+<p>Be cautious with guaranteed-return promises, pressure to invest immediately, unverified tips, fake trading platforms, unrealistic profit claims and anyone asking for sensitive financial credentials.</p>
+<p><strong>If a return sounds guaranteed and unusually high, investigate before sending money.</strong></p>
+</div>
+
+<div class="card">
+<div class="icon">🌱</div><h3>The Simple Finance Formula</h3>
+<p><strong>Earn more + Spend intentionally + Build an emergency fund + Protect yourself + Control expensive debt + Invest according to goals + Diversify + Review regularly.</strong></p>
+<p>Financial freedom is usually built over years, not days.</p>
+</div>
+
+<div class="note">This finance section is educational and not personalized financial, tax or investment advice. Investment values can fall as well as rise. Tax rules, interest rates, insurance terms and financial products can change, so verify current terms and consider qualified professional advice for decisions specific to your situation.</div>
+</div></section>
+
+<section id="health"><div class="container">
+<div class="sectionhead"><h2>Health</h2><p>A simple, practical health guide covering food, exercise, sleep, heart health, prevention and everyday habits.</p></div>
+
+<div class="card" style="margin-bottom:18px">
+<div class="icon">🩺</div><h3>Build a Healthier Life</h3>
+<p>Good health is not only about avoiding disease. It is about having enough energy to work, think clearly, sleep well, maintain a healthy body, manage stress and enjoy life.</p>
+<p><strong>Small healthy habits practiced consistently can make a major difference.</strong></p>
+</div>
+
+<div class="grid">
+<div class="card"><div class="icon">❤️</div><h3>Physical Health</h3><p>Support your heart, muscles, bones, digestion and overall physical wellbeing.</p></div>
+<div class="card"><div class="icon">🧠</div><h3>Mental Health</h3><p>Manage stress, emotions and difficult situations while maintaining healthy social connections.</p></div>
+<div class="card"><div class="icon">😴</div><h3>Sleep Health</h3><p>Adequate, regular sleep supports recovery, concentration, mood and normal body function.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">🥗</div><h3>What Should You Eat?</h3>
+<p>Focus on <strong>variety, balance and appropriate portions</strong>. A healthy diet does not have to be expensive.</p>
+</div>
+
+<div class="guide">
+<div class="card"><div class="icon">🍎</div><h3>Fruits & Vegetables</h3><p>Choose different seasonal fruits and vegetables for fiber, vitamins, minerals, antioxidants and other beneficial plant compounds.</p><p><strong>Examples:</strong> banana, apple, orange, guava, papaya, watermelon, spinach, carrot, tomato, beans, cabbage and pumpkin.</p></div>
+<div class="card"><div class="icon">💪</div><h3>Protein</h3><p>Protein helps build and repair muscles and supports many important functions.</p><p><strong>Options:</strong> eggs, milk, curd, dal, chana, rajma, soy, paneer, peanuts, fish and chicken.</p></div>
+<div class="card"><div class="icon">🍚</div><h3>Carbohydrates</h3><p>Rice, roti, oats, potatoes, sweet potatoes, whole grains, fruits and millets can provide energy. You don't need to eliminate carbohydrates to be healthy.</p></div>
+<div class="card"><div class="icon">🥜</div><h3>Healthy Fats</h3><p>Nuts, seeds, peanuts, fish, vegetable oils and avocado can be part of a balanced diet. Because fats are calorie-dense, portions matter.</p></div>
+<div class="card"><div class="icon">💧</div><h3>Water</h3><p>Water supports temperature regulation, digestion, circulation, kidney function and physical performance. Needs vary with body size, climate and activity.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">🚫</div><h3>Foods & Habits to Limit</h3>
+<p>Consistency matters more than perfection. You don't have to completely eliminate every food you enjoy.</p>
+</div>
+
+<div class="grid">
+<div class="card"><div class="icon">🥤</div><h3>Added Sugar</h3><p>Limit soft drinks, energy drinks, sweetened tea/coffee, cakes, biscuits, sweets and desserts. Whole fruits also provide fiber and nutrients.</p></div>
+<div class="card"><div class="icon">🍟</div><h3>Processed & Fried Foods</h3><p>Limit frequent consumption of packaged snacks, deep-fried foods, fast food and foods high in salt, saturated or trans fats.</p></div>
+<div class="card"><div class="icon">🧂</div><h3>Salt</h3><p>Watch pickles, papad, packaged snacks, instant noodles, processed foods, restaurant food and salty sauces. Taste food before automatically adding salt.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">🏃</div><h3>Exercise: Your Body Needs Movement</h3>
+<p>Regular physical activity supports heart health, blood pressure, blood sugar, muscle strength, bones, weight management, mental wellbeing and sleep.</p>
+<p><strong>Aerobic:</strong> walking, jogging, cycling, swimming, dancing and sports.</p>
+<p><strong>Strength:</strong> squats, push-ups, pull-ups, lunges, resistance bands and weight training.</p>
+<p>Start according to your fitness level and gradually increase the challenge.</p>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">❤️</div><h3>Why Are Heart Attacks a Major Concern in India?</h3>
+<p>Heart attacks usually develop from multiple risk factors over many years, rather than one single food or habit.</p>
+<ul>
+<li>High blood pressure</li><li>Diabetes and high blood sugar</li><li>Unhealthy diet</li><li>Physical inactivity</li><li>Tobacco use</li><li>Excess body fat</li><li>High LDL cholesterol</li><li>Excess alcohol consumption</li><li>Family history and genetics</li><li>Increasing age</li><li>Stress and poor sleep</li><li>Air pollution</li>
+</ul>
+</div>
+
+<div class="grid">
+<div class="card"><div class="icon">🩸</div><h3>Blood Pressure</h3><p>High blood pressure often has no obvious symptoms. Regular measurement can help identify problems early.</p></div>
+<div class="card"><div class="icon">🩸</div><h3>Cholesterol</h3><p>LDL cholesterol can contribute to plaque formation in arteries. Overall cardiovascular risk matters more than one number alone.</p></div>
+<div class="card"><div class="icon">🍬</div><h3>Diabetes Risk</h3><p>Regular activity, healthy weight, fiber-rich foods, limiting sugary drinks and appropriate health checks can help manage risk.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px;background:#fff8e8">
+<div class="icon">🚨</div><h3>Heart Attack Warning Signs</h3>
+<p>Possible signs include chest pressure or pain, pain spreading to the arm, shoulder, back, neck or jaw, breathlessness, cold sweating, nausea, dizziness or fainting.</p>
+<p><strong>If you suspect a heart attack, seek emergency medical care immediately. Do not wait for symptoms to disappear.</strong></p>
+</div>
+
+<div class="guide">
+<div class="card"><div class="icon">😴</div><h3>Sleep</h3><p>Most adults need around 7–9 hours, although individual needs vary. Keep a consistent schedule, reduce stimulating activities before bed and limit late caffeine.</p></div>
+<div class="card"><div class="icon">🧘</div><h3>Mental Health & Meditation</h3><p>Exercise, sleep, social connection, hobbies, breathing exercises and meditation can support wellbeing. A simple meditation practice can start with 5–10 minutes.</p></div>
+<div class="card"><div class="icon">🚭</div><h3>Tobacco & Alcohol</h3><p>Avoid tobacco. Alcohol carries health risks; reducing consumption reduces risk, and some people should avoid it completely.</p></div>
+<div class="card"><div class="icon">🦷</div><h3>Dental & Eye Health</h3><p>Brush twice daily, clean between teeth, limit frequent sugary foods, take screen breaks and get appropriate dental and eye examinations.</p></div>
+<div class="card"><div class="icon">💉</div><h3>Vaccination & Check-ups</h3><p>Appropriate preventive care depends on age, medical history, family history, lifestyle and risk factors. More testing is not automatically better.</p></div>
+<div class="card"><div class="icon">🧼</div><h3>Hygiene</h3><p>Wash hands, use safe water, store food properly, keep food preparation areas clean and maintain basic personal hygiene.</p></div>
+</div>
+
+<div class="card" style="margin:38px 0 18px">
+<div class="icon">📱</div><h3>Don't Believe Every Health Claim Online</h3>
+<p>Be cautious about claims that one food cures every disease, detox products remove all toxins, one supplement replaces a healthy lifestyle, or one technique prevents every disease.</p>
+<p><strong>Good health usually comes from many simple, evidence-based habits practiced consistently.</strong></p>
+</div>
+
+<div class="card">
+<div class="icon">🌱</div><h3>The Simple Health Formula</h3>
+<p><strong>Eat better + Move more + Sleep well + Avoid tobacco + Control BP/Sugar/Cholesterol + Manage stress + Get appropriate check-ups.</strong></p>
+<p>You don't need to change everything tomorrow. Start with one healthy habit today and make it permanent.</p>
+<p><strong>Your health is built from thousands of small decisions — not one perfect day.</strong></p>
+</div>
+
+<div class="note">This guide is for general education, not personal medical diagnosis or treatment. If you have symptoms, a medical condition, take medicines, are pregnant, have food allergies or specific nutritional needs, consult a qualified healthcare professional. For suspected emergencies such as a heart attack, seek emergency medical care immediately.</div>
+</div></section>
+
+<section id="spirituality"><div class="container">
+<div class="sectionhead"><h2>Spirituality & Philosophy</h2><p>Explore ideas about awareness, suffering, freedom, compassion and how we understand ourselves.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">☸️</div><h3>Buddha</h3><p>Mindfulness, impermanence, attachment, suffering and the practice of observing experience.</p></div>
+<div class="card"><div class="icon">🧘</div><h3>Mindfulness</h3><p>Simple reflections and practices for attention, awareness and being present.</p></div>
+<div class="card"><div class="icon">🔥</div><h3>Periyar</h3><p>Explore ideas associated with Periyar on rationalism, social equality and questioning tradition.</p></div>
+<div class="card"><div class="icon">🌿</div><h3>Osho & Inner Life</h3><p>Reflections on meditation, awareness, freedom and living more consciously.</p></div>
+<div class="card"><div class="icon">❓</div><h3>Question Everything</h3><p>Separate what you know, what you believe and what you still need to investigate.</p></div>
+<div class="card"><div class="icon">🕯️</div><h3>Simple Living</h3><p>Thoughts on attention, desire, relationships, work and what makes life meaningful.</p></div>
+</div></div></section>
+
+<section id="books"><div class="container">
+<div class="sectionhead"><h2>Books</h2><p>Not just summaries — key ideas, practical takeaways and questions worth thinking about.</p></div>
+<div class="grid bookgrid">
+<div class="card book"><small>MINDSET</small><h3>Think and Grow Rich</h3><p>Goals, persistence, desire and disciplined thinking.</p></div>
+<div class="card book"><small>HABITS</small><h3>Atomic Habits</h3><p>Small systems, identity and consistent actions that compound over time.</p></div>
+<div class="card book"><small>PSYCHOLOGY</small><h3>The Power of Your Subconscious Mind</h3><p>Reflections on beliefs, thought patterns and behaviour.</p></div>
+<div class="card book"><small>MONEY</small><h3>Rich Dad Poor Dad</h3><p>Ideas about assets, income, financial education and different money mindsets.</p></div>
+</div>
+</div></section>
+
+<section><div class="container">
+<div class="sectionhead"><h2>Featured reading</h2><p>Short articles designed to give you something useful in a few minutes.</p></div>
+<div class="feature">
+<div class="card big"><div class="tag">Finance · Beginner</div><h3>Where should you start with personal finance?</h3><p>Start with cash flow: know what comes in, what goes out, what you owe and what you are building. Then create a simple system for saving and investing.</p><a class="btn" href="#finance">Read the topic →</a></div>
+<div class="card"><div class="tag">Mindset</div><h3>Small actions compound.</h3><p>You do not need to transform your life in one day. Build systems that make good actions easier to repeat.</p></div>
+</div>
+</div></section>
+
+<section id="ideas"><div class="container">
+<div class="sectionhead"><h2>Ideas & Thoughts</h2><p>A place for personal observations, questions and lessons from everyday life.</p></div>
+<div class="article-list">
+<div class="card article"><div><div class="tag">Thought</div><h3>Knowledge becomes valuable when you use it.</h3><p>Read, question, experiment, learn from mistakes and keep improving.</p></div><span class="arrow">→</span></div>
+<div class="card article"><div><div class="tag">Life</div><h3>Do not confuse information with understanding.</h3><p>Knowing a concept is the beginning. Applying it is where learning becomes real.</p></div><span class="arrow">→</span></div>
+<div class="card article"><div><div class="tag">Money</div><h3>Income matters. But so does what you do with it.</h3><p>Financial progress comes from the relationship between earning, spending, saving, investing and risk.</p></div><span class="arrow">→</span></div>
+</div>
+</div></section>
+
+<section class="about"><div class="container about-grid">
+<div><div class="eyebrow">About this website</div><h2>Learn in public. Think independently.</h2><p>This is my personal knowledge space — a place to collect useful ideas from finance, health, books, spirituality, philosophy and everyday life.</p><p class="disclaimer">Facts should be verified. Opinions are opinions. Different ideas can be explored without accepting them blindly.</p></div>
+<div class="quote">“Read. Question. Understand. Apply. Repeat.”</div>
+</div></section>
+</main>
+
+<footer><div class="container">© 2026 Ashish Tambe · ashishtambe.xyz · Learn. Think. Grow.</div></footer>
+</body></html>
